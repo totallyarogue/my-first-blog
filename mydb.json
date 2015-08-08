@@ -1,0 +1,439 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "logentry",
+    "app_label": "admin"
+  },
+  "pk": 1
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "permission",
+    "app_label": "auth"
+  },
+  "pk": 2
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "group",
+    "app_label": "auth"
+  },
+  "pk": 3
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "user",
+    "app_label": "auth"
+  },
+  "pk": 4
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "contenttype",
+    "app_label": "contenttypes"
+  },
+  "pk": 5
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "session",
+    "app_label": "sessions"
+  },
+  "pk": 6
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "post",
+    "app_label": "blog"
+  },
+  "pk": 7
+},
+{
+  "model": "sessions.session",
+  "fields": {
+    "expire_date": "2015-08-22T18:43:35.614Z",
+    "session_data": "ZWY0NTBlYmMzNjllMzA1ZjA5NjExM2JjMTBmYjY5ZWEwZGEwODRmMjp7Il9hdXRoX3VzZXJfaGFzaCI6ImRjM2JkZjQzZmQ4MjNhMWYwOGUxOTk4MGZmNDkwNTZiNGE2MTczN2EiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0="
+  },
+  "pk": "pjmq91v4ygn5sf771q6l2lpj0umvqbj3"
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "codename": "add_logentry",
+    "content_type": 1
+  },
+  "pk": 1
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "codename": "change_logentry",
+    "content_type": 1
+  },
+  "pk": 2
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "codename": "delete_logentry",
+    "content_type": 1
+  },
+  "pk": 3
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "codename": "add_permission",
+    "content_type": 2
+  },
+  "pk": 4
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "codename": "change_permission",
+    "content_type": 2
+  },
+  "pk": 5
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "codename": "delete_permission",
+    "content_type": 2
+  },
+  "pk": 6
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "codename": "add_group",
+    "content_type": 3
+  },
+  "pk": 7
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "codename": "change_group",
+    "content_type": 3
+  },
+  "pk": 8
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "codename": "delete_group",
+    "content_type": 3
+  },
+  "pk": 9
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "codename": "add_user",
+    "content_type": 4
+  },
+  "pk": 10
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "codename": "change_user",
+    "content_type": 4
+  },
+  "pk": 11
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "codename": "delete_user",
+    "content_type": 4
+  },
+  "pk": 12
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "codename": "add_contenttype",
+    "content_type": 5
+  },
+  "pk": 13
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "codename": "change_contenttype",
+    "content_type": 5
+  },
+  "pk": 14
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "codename": "delete_contenttype",
+    "content_type": 5
+  },
+  "pk": 15
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "codename": "add_session",
+    "content_type": 6
+  },
+  "pk": 16
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "codename": "change_session",
+    "content_type": 6
+  },
+  "pk": 17
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "codename": "delete_session",
+    "content_type": 6
+  },
+  "pk": 18
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add post",
+    "codename": "add_post",
+    "content_type": 7
+  },
+  "pk": 19
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change post",
+    "codename": "change_post",
+    "content_type": 7
+  },
+  "pk": 20
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete post",
+    "codename": "delete_post",
+    "content_type": 7
+  },
+  "pk": 21
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$20000$cVew5EZmqdeS$DQ8bTfjborLikuKV3M870e7lAHNkVflDsnTvTK8aBoc=",
+    "user_permissions": [],
+    "username": "totallyarogue",
+    "is_staff": true,
+    "last_name": "",
+    "date_joined": "2015-08-08T18:43:04.878Z",
+    "groups": [],
+    "last_login": "2015-08-08T18:43:35.609Z",
+    "is_superuser": true,
+    "is_active": true,
+    "first_name": "",
+    "email": "totallyarogue@gmail.com"
+  },
+  "pk": 1
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-08T18:44:01Z",
+    "title": "Test Post 1",
+    "author": 1,
+    "published_date": "2015-08-08T22:20:19.087Z",
+    "text": "this is just a test post!\r\n\r\nGo to Posts and experiment a little bit with it. Add five or six blog posts. Don't worry about the content - you can simply copy-paste some text from this tutorial to save time :).\r\n\r\nMake sure that at least two or three posts (but not all) have the publish date set. It will be helpful later."
+  },
+  "pk": 1
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-09T18:44:37Z",
+    "title": "Test Post 2",
+    "author": 1,
+    "published_date": "2015-08-08T22:20:19.102Z",
+    "text": "This is the second Test post! It has a publish date instead of being published immediately!\r\n\r\n\r\nCommand (Windows)\r\n\r\n\r\nDescription\r\nExample\r\nexit\r\n\r\n\r\nclose the window\r\nexit\r\ncd\r\n\r\n\r\nchange directory\r\ncd test\r\ndir\r\n\r\n\r\nlist directories/files\r\ndir\r\ncopy\r\n\r\n\r\ncopy file\r\ncopy c:\\test\\test.txt c:\\windows\\test.txt\r\nmove\r\n\r\n\r\nmove file\r\nmove c:\\test\\test.txt c:\\windows\\test.txt\r\nmkdir\r\n\r\n\r\ncreate a new directory\r\nmkdir testdirectory\r\ndel\r\n\r\n\r\ndelete a directory/file\r\ndel c:\\test\\test.txt\r\n"
+  },
+  "pk": 2
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-08T18:45:36Z",
+    "title": "Test Post 3",
+    "author": 1,
+    "published_date": null,
+    "text": "This is the third test post! It will be published immediately! I would never do this on an actual blog because it's confusing!\r\n\r\nCoding Notes:\r\n\r\nFunctions belong to objects, like upper(), which can only be performed on strings. In this case, we call the function a method. \r\nOther times, functions don't belong to anything specific and can be used on different types of objects, just like len(). \r\n\r\nYou can find a list of all available list methods in this chapter of the Python documentation: https://docs.python.org/3/tutorial/datastructures.html\r\n\r\nWhen should you use a dictionary or a list? Well, that's a good point to ponder. Just have a solution in mind before looking at the answer in the next line.\r\nDo you just need an ordered sequence of items? Go for a list.\r\nDo you need to associate values with keys, so you can look them up efficiently (by key) later on? Use a dictionary.\r\nYou always, always need to put two == if you want to check if things are equal to each other. We can also state that things are unequal to each other. For that, we use the symbol !=, as shown in the example above.\r\n\r\nand - if you use the and operator, both comparisons have to be True in order for the whole command to be True\r\nor - if you use the or operator, only one of the comparisons has to be True in order for the whole command to be True\r\nPython reads the file and executes it from top to bottom. So in order to use our function, we have to re-write it at the bottom."
+  },
+  "pk": 3
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-26T13:00:00Z",
+    "title": "Test Post 4",
+    "author": 1,
+    "published_date": null,
+    "text": "This is the fourth test post! It will also have a published date! \r\n\r\nTo add, edit and delete posts we've just modeled, we will use Django admin.\r\n\r\nLet's open the blog/admin.py file and replace its content with this:\r\n\r\nfrom django.contrib import admin\r\nfrom .models import Post\r\n\r\nadmin.site.register(Post)\r\nAs you can see, we import (include) the Post model defined in the previous chapter. To make our model visible on the admin page, we need to register the model with admin.site.register(Post).\r\n\r\nOK, time to look at our Post model. Remember to run python manage.py runserver in the console to run the web server. Go to the browser and type the address http://127.0.0.1:8000/admin/ You will see a login page like this:"
+  },
+  "pk": 4
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-27T19:00:00Z",
+    "title": "Test Post 5",
+    "author": 1,
+    "published_date": null,
+    "text": "This is the 5th test post! There are a lot of these! This is also going to have a publish date! I never schedule things out this well!"
+  },
+  "pk": 5
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-08T18:48:14Z",
+    "title": "Test Post 6",
+    "author": 1,
+    "published_date": null,
+    "text": "THIS IS THE LAST TEST POST YAY\r\n\r\nIMMA PUBLISH IT RIGHT NOW"
+  },
+  "pk": 6
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-08T21:07:34.106Z",
+    "title": "Sample title",
+    "author": 1,
+    "published_date": "2015-08-08T21:39:09.055Z",
+    "text": "Test"
+  },
+  "pk": 7
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "created_date": "2015-08-08T21:38:00.009Z",
+    "title": "Sample title2",
+    "author": 1,
+    "published_date": null,
+    "text": "Test2"
+  },
+  "pk": 8
+},
+{
+  "model": "admin.logentry",
+  "fields": {
+    "action_time": "2015-08-08T18:44:37.291Z",
+    "change_message": "",
+    "user": 1,
+    "object_repr": "Post object",
+    "action_flag": 1,
+    "content_type": 7,
+    "object_id": "1"
+  },
+  "pk": 1
+},
+{
+  "model": "admin.logentry",
+  "fields": {
+    "action_time": "2015-08-08T18:45:36.335Z",
+    "change_message": "",
+    "user": 1,
+    "object_repr": "Post object",
+    "action_flag": 1,
+    "content_type": 7,
+    "object_id": "2"
+  },
+  "pk": 2
+},
+{
+  "model": "admin.logentry",
+  "fields": {
+    "action_time": "2015-08-08T18:46:25.889Z",
+    "change_message": "",
+    "user": 1,
+    "object_repr": "Post object",
+    "action_flag": 1,
+    "content_type": 7,
+    "object_id": "3"
+  },
+  "pk": 3
+},
+{
+  "model": "admin.logentry",
+  "fields": {
+    "action_time": "2015-08-08T18:47:22.200Z",
+    "change_message": "",
+    "user": 1,
+    "object_repr": "Post object",
+    "action_flag": 1,
+    "content_type": 7,
+    "object_id": "4"
+  },
+  "pk": 4
+},
+{
+  "model": "admin.logentry",
+  "fields": {
+    "action_time": "2015-08-08T18:48:14.315Z",
+    "change_message": "",
+    "user": 1,
+    "object_repr": "Post object",
+    "action_flag": 1,
+    "content_type": 7,
+    "object_id": "5"
+  },
+  "pk": 5
+},
+{
+  "model": "admin.logentry",
+  "fields": {
+    "action_time": "2015-08-08T18:48:33.562Z",
+    "change_message": "",
+    "user": 1,
+    "object_repr": "Post object",
+    "action_flag": 1,
+    "content_type": 7,
+    "object_id": "6"
+  },
+  "pk": 6
+}
+]
